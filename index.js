@@ -1,5 +1,21 @@
 // SIMULADOR INTERACTIVO
 
+// OBJETOS
+
+class Seguro {
+    constructor(vehiculo, precioSeguro) {
+        this.vehiculo = vehiculo.toUpperCase();
+        this.precioSeguro = parseFloat(precioSeguro);
+    }
+}
+const MARCAS = [];
+MARCAS.push (new Seguro("Volskwagen", "5000"));
+MARCAS.push (new Seguro("Chevrolet", "4500"));
+MARCAS.push (new Seguro("Fiat", "4000"));
+MARCAS.push (new Seguro("Renault", "3500"));
+
+const RESULTADO = MARCAS.find((el) => el.vehiculo === "Chevrolet")
+console.log(resultado)
 
 
 
