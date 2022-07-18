@@ -1,5 +1,8 @@
 // SIMULADOR INTERACTIVO
 
+
+
+
 //VARIABLES
 
 let nombreCliente = userName();
