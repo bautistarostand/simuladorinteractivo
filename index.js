@@ -15,7 +15,7 @@ MARCAS.push (new Seguro("Fiat", "4000"));
 MARCAS.push (new Seguro("Renault", "3500"));
 
 const RESULTADO = MARCAS.find((el) => el.vehiculo === "Chevrolet")
-console.log(resultado)
+
 
 
 
